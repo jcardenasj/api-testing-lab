@@ -1,0 +1,15 @@
+{
+  "name": "API Testing Lab",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "postCreateCommand": "pip install behave requests && npm install -g json-server",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "esbenp.prettier-vscode"]
+    }
+  }
+}
