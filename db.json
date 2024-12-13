@@ -1,5 +1,94 @@
 {
-    "posts": [
-      { "id": 1, "title": "Hola Mundo", "author": "J2D" }
-    ]
+  "search_flights": [
+    {
+      "vuelo_id": "IB123",
+      "origen": "MAD",
+      "destino": "NYC",
+      "fecha": "2024-12-15",
+      "seats_available": 50,
+      "passengers": [
+        {
+          "id": "P001",
+          "first_name": "Juan",
+          "last_name": "Perez"
+        },
+        {
+          "id": "P002",
+          "first_name": "Ana",
+          "last_name": "Gomez"
+        }
+      ],
+      "id": "d7d2"
+    },
+    {
+      "vuelo_id": "IB124",
+      "origen": "MAD",
+      "destino": "NYC",
+      "fecha": "2024-12-15",
+      "seats_available": 30,
+      "passengers": [
+        {
+          "id": "P003",
+          "first_name": "Luis",
+          "last_name": "Martinez"
+        },
+        {
+          "id": "P004",
+          "first_name": "Maria",
+          "last_name": "Martinez"
+        }
+      ],
+      "id": "ff4e"
+    },
+    {
+      "id": "bce8",
+      "vuelo_id": "IB125",
+      "origen": "MAD",
+      "destino": "BCN",
+      "fecha": "2024-12-20",
+      "seats_available": 20,
+      "passengers": [
+        {
+          "id": "P007",
+          "first_name": "Carlos",
+          "last_name": "Fernandez"
+        },
+        {
+          "id": "P008",
+          "first_name": "Lucia",
+          "last_name": "Martinez"
+        },
+        {
+          "id": "P009",
+          "first_name": "Andres",
+          "last_name": "Gutierrez"
+        }
+      ]
+    },
+    {
+      "id": "e1d7",
+      "vuelo_id": "IB125",
+      "origen": "MAD",
+      "destino": "BCN",
+      "fecha": "2024-12-20",
+      "seats_available": 20,
+      "passengers": [
+        {
+          "id": "P007",
+          "first_name": "Carlos",
+          "last_name": "Fernandez"
+        },
+        {
+          "id": "P008",
+          "first_name": "Lucia",
+          "last_name": "Martinez"
+        },
+        {
+          "id": "P009",
+          "first_name": "Andres",
+          "last_name": "Gutierrez"
+        }
+      ]
+    }
+  ]
 }
