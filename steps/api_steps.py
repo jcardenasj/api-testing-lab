@@ -1,7 +1,7 @@
 import requests
 from behave import given, when, then
 
-@given('el servidor está activo')
+@given('unas fechas validas de busqueda')
 def step_server_active(context):
     context.base_url = "http://localhost:3000"
 
