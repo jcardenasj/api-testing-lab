@@ -1,4 +1,4 @@
-Feature: Pruebas de la API
+Feature: Búsqueda de vuelos
 
   Scenario: Obtener todos los posts
     Given el servidor está activo
